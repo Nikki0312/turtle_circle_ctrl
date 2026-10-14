@@ -1,0 +1,21 @@
+<launch>
+
+
+    <node pkg="turtle_circle_ctrl"
+          type="turtle_circle.py"
+          name="turtle_circle_node"
+          output="screen">
+
+
+        <param name="linear_speed"
+               value="2.0"/>
+
+
+        <param name="angular_speed"
+               value="1.0"/>
+
+
+    </node>
+
+
+</launch>
